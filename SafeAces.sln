@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeAces", "SafeAces\SafeAces.csproj", "{5F23B1E0-031F-4D70-B3FB-A762B5BBF632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F23B1E0-031F-4D70-B3FB-A762B5BBF632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F23B1E0-031F-4D70-B3FB-A762B5BBF632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F23B1E0-031F-4D70-B3FB-A762B5BBF632}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F23B1E0-031F-4D70-B3FB-A762B5BBF632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F23B1E0-031F-4D70-B3FB-A762B5BBF632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F23B1E0-031F-4D70-B3FB-A762B5BBF632}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A07ECECE-74CA-42A0-8C18-424424756F7F}
+	EndGlobalSection
+EndGlobal

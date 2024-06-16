@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SafeAces.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
+    xmlns:ur="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+    BackgroundColor="#2A629A">
+
+    <ScrollView>
+
+
+
+
+
+        <VerticalStackLayout
+            Padding="30,200"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <Label
+                Margin="20,-200,0,-20"
+                FontSize="40"
+                Text="Scan QR Code"
+                TextColor="White"
+                VerticalOptions="Center" />
+            <!--<Label
+                Margin="50,0,0,-20"
+                FontSize="10"
+                Text="Place qr code inside the frame to scan please"
+                TextColor="LightGrey" />
+            <Label
+                Margin="70,0,0,50"
+                FontSize="10"
+                Text="avoid shake to get results quickly"
+                TextColor="LightGrey"
+                VerticalOptions="Center" />
+
+
+            -->
+            <!--<cv:CameraView
+                x:Name="cameraView"
+                Margin="0,0,0,0"
+                BarCodeDetectionEnabled="True"
+                BarcodeDetected="cameraView_BarcodeDetected"
+                CamerasLoaded="cameraView_CamerasLoaded"
+                HeightRequest="200"
+                WidthRequest="250" />-->
+            <!--
+
+            <ur:TextField
+                x:Name="txtid"
+                Title="ENTER ID"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="0,0,0,-10" />
+            <ur:TextField
+                x:Name="txtpurpose"
+                Title="PURPOSE OF VISIT"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="0,0,0,-10"
+                AccentColor="#003285" />
+            <ur:TextField
+                x:Name="txtvisitor"
+                Title="VISITORS NAME"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="0,0,0,-10"
+                AccentColor="#003285" />
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="Medium" Text="Time In:" />
+                    <Label x:Name="barcodeResult" FontSize="Medium" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="Medium" Text="Time Out:" />
+                    <Label x:Name="barcodeResultOut" FontSize="Medium" />
+                </StackLayout>
+            </StackLayout>
+
+            <Button
+                Margin="40,0,40,0"
+                Clicked="btnadd_Clicked"
+                CornerRadius="20"
+                Text="Add Scan"
+                TextColor="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0">
+                        <GradientStop Offset="0" Color="{StaticResource Gradient1}" />
+                        <GradientStop Offset="1" Color="{StaticResource Gradient}" />
+                    </LinearGradientBrush>
+                </Button.Background>
+                <Button.Shadow>
+                    <Shadow
+                        Brush="Black"
+                        Opacity="0.5"
+                        Radius=".5"
+                        Offset="0,10" />
+                </Button.Shadow>
+            </Button>-->
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

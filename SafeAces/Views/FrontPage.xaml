@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SafeAces.Views.FrontPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="FrontPage"
+    BackgroundImageSource="bg.png">
+    <VerticalStackLayout>
+        <Image
+            Margin="10,10"
+            HeightRequest="200"
+            IsAnimationPlaying="True"
+            Source="bgif.gif" />
+
+        <Label
+            Margin="10,0"
+            Padding="10"
+            FontSize="40"
+            HorizontalOptions="Center"
+            Text="SAFE-Aces"
+            TextColor="White" />
+
+        <Label
+            Margin="5,-15,0,20"
+            Padding="10"
+            FontSize="15"
+            HorizontalOptions="Center"
+            Text="QR SCANNER DEVICE"
+            TextColor="White" />
+
+        <Image
+            Margin="0,0,0,0"
+            HeightRequest="100"
+            IsAnimationPlaying="True"
+            Source="logo.png"
+            VerticalOptions="Center" />
+
+        <Button
+            Margin="40,50,40,0"
+            Clicked="btnadd_Clicked"
+            CornerRadius="20"
+            Text="Lets Get Started"
+            TextColor="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Offset="0" Color="{StaticResource Gradient1}" />
+                    <GradientStop Offset="1" Color="{StaticResource Gradient}" />
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Shadow>
+                <Shadow
+                    Brush="Black"
+                    Opacity="0.5"
+                    Radius=".5"
+                    Offset="0,10" />
+            </Button.Shadow>
+        </Button>
+
+
+    </VerticalStackLayout>
+</ContentPage>

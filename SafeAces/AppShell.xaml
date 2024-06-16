@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SafeAces.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SafeAces"
+    xmlns:pages="clr-namespace:SafeAces.Views"
+    Title="SafeAces"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent ContentTemplate="{DataTemplate pages:ScanPage}" Icon="scan.png" />
+        <ShellContent ContentTemplate="{DataTemplate pages:VisitorPage}" Icon="plus.png" />
+
+
+    </TabBar>
+
+</Shell>
